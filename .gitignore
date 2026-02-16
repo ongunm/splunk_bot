@@ -1,0 +1,45 @@
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+/.venv/
+**/.venv/
+venv/
+env/
+
+# Build/test artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Local environment files
+.env
+.env.*
+
+# Local secrets/config (never commit real credentials)
+keys/
+*.pem
+*.key
+*.p12
+*.crt
+*.cer
+
+# Runtime files
+*.log
+*.pid
+
+# Editor/OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
