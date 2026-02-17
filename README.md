@@ -8,7 +8,7 @@ Single-entry bot for security operations:
 ## One-command start
 
 ```bash
-cd /home/ongunmanav/Documents/main/Projects/splunk_bot
+cd /path/to/splunk_bot
 chmod +x start.sh
 ./start.sh
 ```
@@ -20,9 +20,9 @@ chmod +x start.sh
 
 ## Keys expected (already in your setup)
 
-- `/home/ongunmanav/keys/openaikey.json`
-- `/home/ongunmanav/keys/telegramkey.json`
-- `/home/ongunmanav/keys/subscribers.json`
+- `~/keys/openaikey.json`
+- `~/keys/telegramkey.json`
+- `~/keys/subscribers.json`
 
 Supported JSON key names:
 - OpenAI: `OPENAI_API_KEY` (or `key`, `api_key`)
@@ -48,7 +48,7 @@ export SPLUNK_VERIFY_TLS="false"
 ```
 
 Optional file override:
-- `/home/ongunmanav/keys/splunk.json`
+- `~/keys/splunk.json`
 
 ## Telegram commands
 
